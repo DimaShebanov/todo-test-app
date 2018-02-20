@@ -1,5 +1,3 @@
-@import '../../assets/less/variables.less';
-
 .placeholder (@styles) {
     &::-webkit-input-placeholder    {
         @styles();
@@ -29,7 +27,7 @@
         left: 0;
         width: 0;
         transition: .3s linear all;
-        border-bottom: 2px solid @color-blue;
+        border-bottom: 2px solid #3498db;
     }
 
     &__label {
@@ -49,7 +47,7 @@
         border: none;
         background-color: transparent;
         outline: none;
-        border-bottom: 1px solid @color-dark-gray;
+        border-bottom: 1px solid #7f8c8d;
         border-radius: 0;
         .placeholder({
             font-size: 15px;
