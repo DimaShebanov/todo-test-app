@@ -1,0 +1,26 @@
+.pages {
+    text-align: center;
+    padding: 15px;
+
+    &__item {
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        margin: 3px;
+        transition: .2s;
+        user-select: none;
+        &:hover {
+            background: rgba(100, 100, 100, 0.5);
+            color: #ffffff;
+        }
+        &.current {
+            background: rgba(100, 100, 100, 0.3);
+            color: #ffffff;
+            cursor: default;
+            pointer-events: none;
+        }
+        
+    }
+
+}

@@ -1,0 +1,33 @@
+.todo-item {
+    padding: 20px;
+    background: #d3d3d3;
+    margin: 10px 15px 10px 15px;
+    flex : 1 1 20%;
+    min-width: 150px;
+    position: relative;
+    &__description {
+        width: 100%;
+        height: 50px;
+        resize: none;
+        background: transparent;
+        margin-top: 5px;
+        border: 1px solid black;
+    }
+    &__date {
+        margin-top: 10px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    &__delete {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        padding: 3px;
+        border-radius: 50%;
+        font-weight: 900;
+        &:hover {
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.add-item {
+    flex : 1 0 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    &__form {
+        flex: 1;
+        margin-top: 20px;
+        background: gray;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 250px;
+
+    }
+    .form {
+        &__fields {
+            div {
+                display: flex;
+                flex-direction: column;
+                input {
+                    padding: 5px;
+                    border: 1px solid #000000;
+                }
+            }
+        }
+
+        &__button {
+            padding: 5px 15px;
+            border: 1px solid #d3d3d3;
+        }
+
+    }
+}
